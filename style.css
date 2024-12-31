@@ -1,0 +1,32 @@
+/* General body styling */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+/* Header styling */
+#header {
+  background-color: #1eff00;
+  padding: 5px;
+  text-align: center;
+  border: 5px solid #07bd80;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+/* Map container styling */
+#map {
+  flex: 1;
+  height: calc(100vh - 50px); /* Adjust height based on the header size */
+  border: 5px solid rgb(255, 0, 0);
+  width: 100%;
+  text-align: center;
+}
+
+.leaflet-popup-content {
+  text-align: justify;
+}
